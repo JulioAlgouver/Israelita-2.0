@@ -1,0 +1,82 @@
+.container .content_oferta{
+    position: absolute;
+    width: 100vw;
+    top: 9vw;
+
+    text-align: center;
+}
+
+.container .content_oferta strong{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 37px;
+    text-shadow: black 0px 5px 3px 3px 0.25;
+}
+
+.container .content_oferta .pix{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 25vw;
+
+    margin-top: 2vw;
+    background: url('../../images/oferta/background_pix.png');
+    background-size: 100vw 25vw;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.container .content_oferta .pix img{
+    width: 30vw;
+    height: 10vw;
+    margin-top: 2vw;
+}
+
+.container .content_oferta .pix strong{
+    position: absolute;
+    top: 13vw;
+
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 600;
+}
+
+.container .content_oferta .pix span{
+    position: absolute;
+    top: 17vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-align: center;
+
+    color: #01A497;
+}
+
+.container .content_oferta .versiculo span{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    top: 31.5vw;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    text-align: center;
+
+    color: #000000;
+}
+
+.container .footer{
+    position: relative;
+    display: flex;
+    bottom: 53vw;
+}

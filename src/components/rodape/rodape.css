@@ -1,0 +1,127 @@
+.container_footer{
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: auto;    
+    top: 100vw;
+
+    background: url('../../images/rodape/background.png');
+    filter: drop-shadow(0px -4px 4px rgba(0, 0, 0, 0.50));
+}
+
+.container_footer .content_footer{
+    padding: 2.5vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+
+    color: antiquewhite;
+}
+
+.container_footer .content_footer .enderecos{
+    position: relative;
+    float: left;
+    width: 40vw;
+    bottom: 1.3vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.container_footer .content_footer .enderecos strong{ 
+    display: flex;
+
+    font-weight: 800;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.container_footer .content_footer .enderecos span b{
+    color: rgb(255, 255, 255);
+
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+
+.container_footer .content_footer .enderecos span{
+    color: rgb(255, 255, 255);
+
+    font-weight: 300;
+    font-size: 1.1vw;
+}
+
+.container_footer .content_footer .cultos{
+    position: relative;
+    display: grid;
+    width: 28vw;
+    height: 17vw;
+    float: left;
+
+    margin-bottom: 2vw;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container_footer .content_footer .cultos strong{
+    display: flex;
+    font-weight: 600;
+    font-size: 1.5vw;
+    padding-bottom: 2vw;
+
+}
+
+.container_footer .content_footer .cultos span{
+    font-weight: 300;
+    font-size: 1.3vw;
+}
+
+.container_footer .content_footer .cultos link{
+    text-decoration: none;
+}
+
+.container_footer .content_footer .redes_sociais{
+    position: absolute;
+    width: 25vw;
+    height: 10vw;
+
+    bottom: 1vw;
+    left: 73vw;
+    float: right;
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container_footer .content_footer .redes_sociais strong{
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.container_footer .content_footer .redes_sociais img{
+    width: 4vw;
+    margin: 1vw;
+    margin-top: 3vw;
+    height: auto;
+}
+
+.container_footer .content_footer .whatsApp{
+    position: relative;
+    display: flex;
+    width: 25vw;
+    height: 18vw;
+    float: right;
+
+    justify-content: right;
+}
+
+.container_footer .content_footer .whatsApp img{
+    position: relative;
+    width: 4.3vw;
+    top: 12.5vw;
+}

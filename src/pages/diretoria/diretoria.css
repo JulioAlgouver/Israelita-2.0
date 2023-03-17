@@ -1,0 +1,90 @@
+.container .content_diretoria .titulo{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    top: 7vw;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .content_diretoria .titulo strong{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+
+    color: #454545;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.18);
+}
+
+.container .content_diretoria .gallery{
+    position: absolute;
+    display: flex;
+    top: 11.4vw;
+
+    width: 100vw;
+    height: 34vw;
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .content_diretoria .gallery span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.container .content_diretoria .gallery strong{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.container .content_diretoria .gallery .first_line{
+    position: absolute;
+    display: flex;
+    float: left;
+    width: 37vw;
+
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.container .content_diretoria .gallery .first_line img{
+    width: 12vw;
+    margin-top: 0.5vw;
+}
+
+.container .content_diretoria .gallery .second_line{
+    position: absolute;
+    display: flex;
+    float: left;
+    width: 60vw;
+    top: 24vw;
+
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.container .content_diretoria .gallery .second_line img{
+    width: 7vw;
+    margin-top: 0.5vw;
+}
+
+.container .footer_diretoria{
+    position: relative;
+    display: flex;
+    bottom: 50vw;
+}

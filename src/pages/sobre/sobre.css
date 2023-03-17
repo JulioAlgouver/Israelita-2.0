@@ -1,0 +1,110 @@
+.container .content_sobre{
+    position: absolute;
+    display: flex;
+}
+
+.container .content_sobre .titulo{
+    position: absolute;
+    display: flex;
+    top: 8vw;
+    width: 100vw;
+
+    justify-content: center;
+}
+
+.container .content_sobre .titulo span{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height:55px;
+    
+    color: #454545;
+}
+
+.container .content_sobre .titulo strong{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 49px;
+    
+    color: #454545;
+    margin-left: 0.7vw;
+}
+
+.container .content_sobre .img_igreja img{
+    position: absolute;
+    display: flex;
+    width: 45vw;
+    height: auto;
+
+    top: 16vw;
+    left: 56vw;
+}
+
+.container .content_sobre .relato{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    top: 15vw;
+    left: 5vw;
+}
+
+.container .content_sobre .relato .part-I span{
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    
+    color: #000000;
+}
+
+.container .content_sobre .relato .part-II{
+    position: absolute;
+    display: flex;
+    float: right;
+    top: 43vw;
+    right: 9vw;
+}
+
+.container .content_sobre .relato .part-II span{
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    
+    color: #000000;
+    text-align: right;
+}
+
+.container .content_sobre .foto_fundadores{
+    position: absolute;
+    display: flex;
+    top: 50vw;
+    left: 2vw;
+
+    font-family: 'Marcellus';
+    font-style: normal;
+}
+
+.container .content_sobre .foto_fundadores strong{
+    position: absolute;
+    display: flex;
+    top: 32.5vw;
+    left: 26vw;
+}
+
+.container .content_sobre .foto_fundadores span{
+    position: absolute;
+    display: flex;
+    top: 34.5vw;
+    left: 26vw;
+    width: 100vw;
+}
+
+.container .footer_sobre{
+    position: relative;
+    display: flex;
+    bottom: 11.5vw;
+}

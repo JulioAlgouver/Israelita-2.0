@@ -1,0 +1,391 @@
+.container{
+    position: relative;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/home/Background.jpg');
+    z-index: 0;
+}
+
+.container .header{
+    position: relative;
+    display: flex;
+    float: left;
+    width: 100vw;
+    height: 15vh;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    z-index: 1;
+}
+
+.container .content{
+    position: absolute;
+    float: left;
+
+    width: 100vw;
+    height: auto;
+
+    z-index: 0;
+}
+
+.container .content .carrossel .novoTemplo{
+    position: relative;
+    display: flex;
+    float: left;
+    width: 100vw;
+    height: auto;
+    left: 0px;
+    top: 0vw;
+
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+    z-index: 0;
+}
+
+.container .content .devocional{
+    position: absolute;
+    padding: 1vw;
+    height: 57vh;
+    width: 30vw;
+    left: 5vw;
+    top: 100%;
+
+    border-radius: 5%;
+
+    background: url('../../images//home/Background_devocional.png');
+
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .content .devocional strong{
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 50px;
+    letter-spacing: -0.035em;
+
+    color: #393939;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.container .content .devocional .versiculo{
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 28px;
+    letter-spacing: -0.035em;
+}
+
+.container .content .devocional .referencia{
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4vw;
+    line-height: 28px;
+    text-align: right;
+    letter-spacing: -0.035em;
+}
+
+.container .content .devocional .texto_base{
+    padding-top: 2vw;
+
+    font-family: 'Molengo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.27vw;
+    line-height: 26px;
+    text-align: justify;
+    letter-spacing: -0.035em;
+    
+    color: #000000;
+}
+
+.container .content .eventos{
+    position: absolute;
+    padding: 1vw;
+    padding-left: 2vw;
+    height: 55vh;
+    width: 47vw;
+    left: 45vw;
+    top: 110%;
+
+    background: url('../../images//home/Background_eventos.png');
+    mix-blend-mode: normal;
+    border-radius: 40px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.container .content .eventos strong{
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 50px;
+    letter-spacing: -0.035em;
+
+    color: #393939;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.container .content .eventos .desc_evento{
+    position: relative;
+    float: left;
+    
+    width: 43vw;
+    height: 8vw;
+    margin-bottom: 1.5vw ;
+}
+
+.container .content .eventos .desc_evento .data{
+    position: relative;
+    display: flex;
+    float: left;
+    width: 8vw;
+    height:8vw;
+    background: url('../../images/home/Background_day.png');
+    background-repeat: no-repeat;
+    background-size: 8vw;
+    color: whitesmoke;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .content .eventos .desc_evento .data .day{
+    position: absolute;
+    float: left;
+    width: 8vw;
+    height: 4vw;
+    bottom: 4vw;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.6vw;
+}
+
+.container .content .eventos .desc_evento .data .month{
+    position: absolute;
+    display: flex;
+    float: left;
+    width: 8w;
+    height: 4vw;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.30);
+    top: 4.2vw;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .content .eventos .desc_evento .descricao{
+    position: relative;
+    display: flex;
+    float: left;
+
+    margin-left: 1vw;
+    height: 8vw;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    letter-spacing: 0.02vw;
+
+    width: 34vw;
+    height: 3vw;
+}
+
+.container .content .eventos .desc_evento .dia{
+    position: relative;
+    display: flex;
+    float: left;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+
+    margin-left: 1vw;
+    width: 34vw;
+    height: 2.5vw;
+}
+
+.container .content .eventos .desc_evento .local{
+    position: relative;
+    display: flex;
+    float: left;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+
+    margin-left: 1vw;
+    width: 34vw;
+    height: 3vw;
+}
+
+.container .content .eventos .link_agenda{
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3vw;
+    line-height: 31px;
+    letter-spacing: -0.035em;
+
+    color: #393939;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .content .button_ofertas{
+    position: absolute;
+    display: flex;
+    float: right;
+
+    top: 32vw;
+    right: 5vw;
+
+    width: 15vw;
+    height: 15vw;
+}
+
+.container .content .button_ofertas button{
+    width: 15vw;
+    height: 13.5vw;
+    background: none;
+    border: none;
+    border-radius: 1.3vw;
+
+    background: url('../../images/home/oferta.png');
+    background-repeat: no-repeat;
+    background-size: 15vw;
+}
+
+.container .content .button_ofertas button:hover{
+    box-shadow: #393939 0px 0px 3px 1px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.container .content .button_ofertas button span{
+    display: flex;
+    padding-left: 0.6vw;
+    padding-bottom: 5vw;
+
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    letter-spacing: -0.035em;
+
+    color: #EBEBEB;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container .content .midias{
+    position: absolute;
+    display: flex;
+    float: left;
+
+    top: 32vw;
+    left: 4vw;
+}
+
+.container .content .midias strong{
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 50px;
+    letter-spacing: -0.035em;
+    
+    color: #393939;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .content .midias button{
+    position: relative;
+    display: flex;
+    border: #000000 4px;
+    background-repeat: no-repeat;
+    width: 5.5vw;
+    height: 5.5vw;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .content .midias button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .content .biblia{
+    position: absolute;
+    display: flex;
+    float: left;
+
+    width: 7vw;
+    height: 7vw;
+    top: 4vw;
+    right: 6vw;
+
+    border: none;
+    background-size: 7vw;
+    background-repeat: no-repeat;
+    background: url('../../images/home/bible_icon.png');
+}
+
+.container .content .harpa{
+    position: absolute;
+    display: flex;
+    float: left;
+
+    width: 7vw;
+    height: 7vw;
+    top: 4vw;
+    right: 3vw;
+
+    border: none;
+    background-size: 7vw;
+    background-repeat: no-repeat;
+    background: url('../../images/home/harpa_icon.png');
+}
+
+.container .content .midias .legenda_biblia{
+    position: absolute;
+
+    width: 5vw;
+    top: 10vw;
+    right: 10.5vw;
+
+    font-family: 'Molengo';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container .content .midias .legenda_harpa{
+    position: absolute;
+
+    top: 10vw;
+    right: 4vw;
+
+    font-family: 'Molengo';
+    font-style: normal;
+    font-weight: 400;
+}
