@@ -2,20 +2,20 @@ import React from "react";
 import { Menu } from "../../components/menu/menu";
 import { Rodape } from "../../components/rodape/rodape";
 
-import './contato.css';
+import './map_vilaSandra.css';
 
 import map_icon from '../../images/contato/map_icon.png';
 import { Link } from "react-router-dom";
 
-const Contato: React.FC = () => {
+const MapaVilaSandra: React.FC = () => {
     return(
         <div className="container">
             <div className="menu">
                 <Menu/>
             </div>
-            <div className="content_contato">
+            <div className="content_contato_vilaSandra">
                 <div className="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d145159.23516465892!2d-49.39556718165078!3d-25.524822036112095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1679076301416!5m2!1spt-BR!2sbr" 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d450.27449147868487!2d-49.34306119863397!3d-25.465132222631862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x17c2ae70ca59ff9f!2sIgreja%20evang%C3%A9lica%20assembleia%20de%20Deus%20minist%C3%A9rio%20Israelita!5e0!3m2!1spt-BR!2sbr!4v1679086186866!5m2!1spt-BR!2sbr" 
                             width="600" 
                             height="450" 
                             loading="lazy">
@@ -70,4 +70,4 @@ const Contato: React.FC = () => {
     )
 }
 
-export default Contato;
+export default MapaVilaSandra;

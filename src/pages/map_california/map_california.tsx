@@ -2,24 +2,24 @@ import React from "react";
 import { Menu } from "../../components/menu/menu";
 import { Rodape } from "../../components/rodape/rodape";
 
-import './contato.css';
+import './map_california.css';
 
 import map_icon from '../../images/contato/map_icon.png';
 import { Link } from "react-router-dom";
 
-const Contato: React.FC = () => {
+const MapaCalifornia: React.FC = () => {
     return(
         <div className="container">
             <div className="menu">
                 <Menu/>
             </div>
-            <div className="content_contato">
+            <div className="content_contato_california">
                 <div className="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d145159.23516465892!2d-49.39556718165078!3d-25.524822036112095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1679076301416!5m2!1spt-BR!2sbr" 
-                            width="600" 
-                            height="450" 
-                            loading="lazy">
-                    </iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.538575575334!2d-49.382792407590976!3d-25.540536086529443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dd02b937c0af25%3A0x9c809f2a24059c12!2sR.%20Bico-de-Lacre%2C%201003%20-%20Capela%20Velha%2C%20Arauc%C3%A1ria%20-%20PR%2C%2083706-450!5e0!3m2!1spt-BR!2sbr!4v1679086411437!5m2!1spt-BR!2sbr" 
+                        width="600" 
+                        height="450" 
+                        loading="lazy">
+                </iframe>
                 </div>
                 <div className="lista_enderecos">
                     <div className="titulo">
@@ -70,4 +70,4 @@ const Contato: React.FC = () => {
     )
 }
 
-export default Contato;
+export default MapaCalifornia;
