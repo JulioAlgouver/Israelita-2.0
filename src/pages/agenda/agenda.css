@@ -1,0 +1,188 @@
+.container .content_agenda{
+    position: absolute;
+    display: flex;
+}
+
+.container .content_agenda .titulo{
+    position: absolute;
+    display: flex;
+    top: 8vw;
+    width: 100vw;
+
+    justify-content: center;
+}
+
+.container .content_agenda .titulo span{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height:55px;
+    
+    color: #454545;
+}
+
+.container .content_agenda .titulo strong{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 49px;
+    
+    color: #454545;
+    margin-left: 0.7vw;
+}
+
+.container .content_agenda .agenda_geral{
+    position: absolute;
+    display: flex;
+    width: 95vw;
+    height: 30vw;
+    
+    top: 13vw;
+    left: 3vw;
+}
+
+.container .content_agenda .mes{
+    position: relative;
+    float: left;
+    width: 93vw;
+}
+
+.container .content_agenda .agenda_geral .mes span{ 
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 49px;
+    /* identical to box height */
+
+    color: #454545;
+}
+
+.container .content_agenda .mes .descricao{
+    position: relative;
+    display: flex;
+    width: 90vw;
+    height: 13vw;
+    margin-top: 1vw;
+    padding: 1vw;
+}
+
+.container .content_agenda .mes .dia{
+    display: flex;
+    width: 8vw;
+    height: 8vw;
+    float: left;
+    margin-right: 2vw;
+
+    background: url('../../images/agenda/background_data.png');
+    background-repeat: no-repeat;
+    background-size: 8vw;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container .content_agenda .mes .dia strong{
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4vw;
+    line-height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container .content_agenda .mes .nome_evento strong{
+    position: absolute;
+    left: 10.5vw;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 49px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.container .content_agenda .mes .dia_semana span{
+    position: absolute;
+    left: 10.5vw;
+    top: 3.5vw;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 49px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.container .content_agenda .mes .local_evento span{
+    position: absolute;
+    left: 10.5vw;
+    top: 5.5vw;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 49px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+.container .content_agenda .mes .descricao img{
+    position: absolute;
+    right: -2vw;
+    float: right;
+    width: 18vw;
+
+    border-radius: 1.5vw;
+}
+
+.container .content_agenda hr{
+    box-shadow: #454545 0px 3px 4px;
+}
+
+.container .content_agenda b{
+    margin-right: 0.5vw;
+}
+
+.container h5{
+    line-height: 3vw;
+}
+
+.container .footer_agenda{
+    position: relative;
+    display: flex;
+    top: 130vw;
+}
